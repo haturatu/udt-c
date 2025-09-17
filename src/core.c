@@ -2,7 +2,7 @@
 #include "packet.h"
 #include "buffer.h"
 
-extern conn_t connection;
+conn_t connection;
 
 void handshake_init()
 {

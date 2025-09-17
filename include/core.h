@@ -15,7 +15,7 @@ typedef struct {
     int type;
 } conn_t;
 
-conn_t connection;
+extern conn_t connection;
 
 void    handshake_init      ();
 void    handshake_terminate ();
